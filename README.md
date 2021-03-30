@@ -1,22 +1,7 @@
 # How to deploy
 
-Requirements:
-- Make sure you have the oc CLI 4.3 or above installed.
+This is a sample HELM chart served up via GitHub using the ACM UI.
 
-The application resources are stored in **sample-*** folders in this repo.
+The RAW repository URL is:  https://raw.githubusercontent.com/HichamMourad/app-samples/master
 
-To deploy a sample, do the following:
 
-1. git clone https://github.com/fxiang1/app-samples.git
-
-2. oc login to your hub cluster
-
-3. cd app-samples
-
-4. oc apply -k sample-mortgage
-
-Most of the application resources are using this git repo although some are pointing to external repos.
-
-You can deploy all the samples by running:
-
-`./deployall.sh`
