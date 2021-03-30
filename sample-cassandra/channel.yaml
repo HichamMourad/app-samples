@@ -1,8 +1,0 @@
-apiVersion: apps.open-cluster-management.io/v1
-kind: Channel
-metadata:
-  name: cassandra-channel
-  namespace: cassandra-ch
-spec:
-  pathname: 'https://github.com/kubernetes/examples.git'
-  type: GitHub

@@ -1,8 +1,0 @@
-apiVersion: apps.open-cluster-management.io/v1
-kind: Channel
-metadata:
-  name: gitops
-  namespace: gitops-chn-ns
-spec:
-  pathname: 'https://github.com/fxiang1/app-samples.git'
-  type: GitHub
